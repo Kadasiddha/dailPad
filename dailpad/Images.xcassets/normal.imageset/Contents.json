@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "normal.pdf"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "filename" : "normal copy.pdf"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
