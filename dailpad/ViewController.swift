@@ -30,11 +30,11 @@ class ViewController: UIViewController {
         
         
         //////////////////Autolayout//////////////////
-        var height = UIScreen.mainScreen().bounds.size.height;
-        var width = UIScreen.mainScreen().bounds.size.width;
+        let height = UIScreen.mainScreen().bounds.size.height;
+        let width = UIScreen.mainScreen().bounds.size.width;
         
-        println("height : \(height)")
-        println("width : \(width)")
+        print("height : \(height)")
+        print("width : \(width)")
         if (height == 480)
         {
             
@@ -244,62 +244,62 @@ class ViewController: UIViewController {
             
             AudioServicesPlaySystemSound(1200)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "1" :
             
             AudioServicesPlaySystemSound(1201)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "2" :
             
             AudioServicesPlaySystemSound(1202)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "3" :
             
             AudioServicesPlaySystemSound(1203)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "4" :
             
             AudioServicesPlaySystemSound(1204)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "5" :
             
             AudioServicesPlaySystemSound(1205)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "6" :
             
             AudioServicesPlaySystemSound(1206)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "7" :
             
             AudioServicesPlaySystemSound(1207)
             
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "8" :
             
             AudioServicesPlaySystemSound(1208)
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         case "9" :
             
             AudioServicesPlaySystemSound(1209)
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         default:
-            println("Button pressed : \(digit1)")
+            print("Button pressed : \(digit1)")
             
         }
         dailpadtxt.text = dailpadtxt.text! + digit1
