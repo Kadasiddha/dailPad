@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         
         
         //////////////////Autolayout//////////////////
-        let height = UIScreen.mainScreen().bounds.size.height;
-        let width = UIScreen.mainScreen().bounds.size.width;
+        let height = UIScreen.main.bounds.size.height;
+        let width = UIScreen.main.bounds.size.width;
         
         print("height : \(height)")
         print("width : \(width)")
@@ -41,55 +41,55 @@ class ViewController: UIViewController {
            
             
             /////////////////////dailpadtxt/////////////
-            dailpadtxt.frame = CGRectMake(50, 108, 220, 30)
+            dailpadtxt.frame = CGRect(x: 50, y: 108, width: 220, height: 30)
             self.view.addSubview(dailpadtxt)
             
-            btn1.frame = CGRectMake(36, 155, 60, 60)
+            btn1.frame = CGRect(x: 36, y: 155, width: 60, height: 60)
             self.view.addSubview(btn1)
             
             
             /////////////////////2/////////////
-            btn2.frame = CGRectMake(130, 155, 60, 60)
+            btn2.frame = CGRect(x: 130, y: 155, width: 60, height: 60)
             self.view.addSubview(btn2)
             
             /////////////////////3/////////////
-            btn3.frame = CGRectMake(224, 155, 60, 60)
+            btn3.frame = CGRect(x: 224, y: 155, width: 60, height: 60)
             self.view.addSubview(btn3)
             
             /////////////////////4/////////////
-            btn4.frame = CGRectMake(36, 224, 60, 60)
+            btn4.frame = CGRect(x: 36, y: 224, width: 60, height: 60)
 
             self.view.addSubview(btn4)
             
             
             
             /////////////////////5/////////////
-            btn5.frame = CGRectMake(130, 224, 60, 60)
+            btn5.frame = CGRect(x: 130, y: 224, width: 60, height: 60)
             self.view.addSubview(btn5)
             
             
             /////////////////////6/////////////
-            btn6.frame = CGRectMake(224, 224, 60, 60)
+            btn6.frame = CGRect(x: 224, y: 224, width: 60, height: 60)
             self.view.addSubview(btn6)
             
             
             /////////////////////7/////////////
-            btn7.frame = CGRectMake(36, 293, 60, 60)
+            btn7.frame = CGRect(x: 36, y: 293, width: 60, height: 60)
             self.view.addSubview(btn7)
             
           
             
             /////////////////////8/////////////
-            btn8.frame = CGRectMake(130, 293, 60, 60)
+            btn8.frame = CGRect(x: 130, y: 293, width: 60, height: 60)
             self.view.addSubview(btn8)
             
                        /////////////////////9/////////////
-            btn9.frame = CGRectMake(224, 293, 60, 60)
+            btn9.frame = CGRect(x: 224, y: 293, width: 60, height: 60)
             self.view.addSubview(btn9)
             
             
             /////////////////////0/////////////
-            btn0.frame = CGRectMake(130, 362, 60, 60)
+            btn0.frame = CGRect(x: 130, y: 362, width: 60, height: 60)
             self.view.addSubview(btn0)
             
             
@@ -98,55 +98,55 @@ class ViewController: UIViewController {
         {
             
             /////////////////////dailpadtxt/////////////
-            dailpadtxt.frame = CGRectMake(50, 108, 220, 30)
+            dailpadtxt.frame = CGRect(x: 50, y: 108, width: 220, height: 30)
             self.view.addSubview(dailpadtxt)
             
-            btn1.frame = CGRectMake(36, 159, 70, 70)
+            btn1.frame = CGRect(x: 36, y: 159, width: 70, height: 70)
             self.view.addSubview(btn1)
             
             
             /////////////////////2/////////////
-            btn2.frame = CGRectMake(125, 159, 70, 70)
+            btn2.frame = CGRect(x: 125, y: 159, width: 70, height: 70)
             self.view.addSubview(btn2)
             
             /////////////////////3/////////////
-            btn3.frame = CGRectMake(214, 159, 70, 70)
+            btn3.frame = CGRect(x: 214, y: 159, width: 70, height: 70)
             self.view.addSubview(btn3)
             
             /////////////////////4/////////////
-            btn4.frame = CGRectMake(36, 249, 70, 70)
+            btn4.frame = CGRect(x: 36, y: 249, width: 70, height: 70)
             
             self.view.addSubview(btn4)
             
             
             
             /////////////////////5/////////////
-            btn5.frame = CGRectMake(125, 249, 70, 70)
+            btn5.frame = CGRect(x: 125, y: 249, width: 70, height: 70)
             self.view.addSubview(btn5)
             
             
             /////////////////////6/////////////
-            btn6.frame = CGRectMake(214, 249, 70, 70)
+            btn6.frame = CGRect(x: 214, y: 249, width: 70, height: 70)
             self.view.addSubview(btn6)
             
             
             /////////////////////7/////////////
-            btn7.frame = CGRectMake(36, 339, 70, 70)
+            btn7.frame = CGRect(x: 36, y: 339, width: 70, height: 70)
             self.view.addSubview(btn7)
             
             
             
             /////////////////////8/////////////
-            btn8.frame = CGRectMake(125, 339, 70, 70)
+            btn8.frame = CGRect(x: 125, y: 339, width: 70, height: 70)
             self.view.addSubview(btn8)
             
             /////////////////////9/////////////
-            btn9.frame = CGRectMake(214, 339, 70, 70)
+            btn9.frame = CGRect(x: 214, y: 339, width: 70, height: 70)
             self.view.addSubview(btn9)
             
             
             /////////////////////0/////////////
-            btn0.frame = CGRectMake(125, 429, 70, 70)
+            btn0.frame = CGRect(x: 125, y: 429, width: 70, height: 70)
             self.view.addSubview(btn0)
             
             
@@ -157,55 +157,55 @@ class ViewController: UIViewController {
         {
             
             /////////////////////dailpadtxt/////////////
-            dailpadtxt.frame = CGRectMake(64, 146, 283, 30)
+            dailpadtxt.frame = CGRect(x: 64, y: 146, width: 283, height: 30)
             self.view.addSubview(dailpadtxt)
             
-            btn1.frame = CGRectMake(47, 223, 84, 84)
+            btn1.frame = CGRect(x: 47, y: 223, width: 84, height: 84)
             self.view.addSubview(btn1)
             
             
             /////////////////////2/////////////
-            btn2.frame = CGRectMake(165, 223, 84, 84)
+            btn2.frame = CGRect(x: 165, y: 223, width: 84, height: 84)
             self.view.addSubview(btn2)
             
             /////////////////////3/////////////
-            btn3.frame = CGRectMake(283, 223, 84, 84)
+            btn3.frame = CGRect(x: 283, y: 223, width: 84, height: 84)
             self.view.addSubview(btn3)
             
             /////////////////////4/////////////
-            btn4.frame = CGRectMake(47, 321, 84, 84)
+            btn4.frame = CGRect(x: 47, y: 321, width: 84, height: 84)
             
             self.view.addSubview(btn4)
             
             
             
             /////////////////////5/////////////
-            btn5.frame = CGRectMake(165, 321, 84, 84)
+            btn5.frame = CGRect(x: 165, y: 321, width: 84, height: 84)
             self.view.addSubview(btn5)
             
             
             /////////////////////6/////////////
-            btn6.frame = CGRectMake(283, 321, 84, 84)
+            btn6.frame = CGRect(x: 283, y: 321, width: 84, height: 84)
             self.view.addSubview(btn6)
             
             
             /////////////////////7/////////////
-            btn7.frame = CGRectMake(47, 419, 84, 84)
+            btn7.frame = CGRect(x: 47, y: 419, width: 84, height: 84)
             self.view.addSubview(btn7)
             
             
             
             /////////////////////8/////////////
-            btn8.frame = CGRectMake(165, 419, 84, 84)
+            btn8.frame = CGRect(x: 165, y: 419, width: 84, height: 84)
             self.view.addSubview(btn8)
             
             /////////////////////9/////////////
-            btn9.frame = CGRectMake(283, 419, 84, 84)
+            btn9.frame = CGRect(x: 283, y: 419, width: 84, height: 84)
             self.view.addSubview(btn9)
             
             
             /////////////////////0/////////////
-            btn0.frame = CGRectMake(165, 517, 84, 84)
+            btn0.frame = CGRect(x: 165, y: 517, width: 84, height: 84)
             self.view.addSubview(btn0)
             
             
@@ -220,7 +220,7 @@ class ViewController: UIViewController {
         }
         
         
-        self.dailpadtxt.inputView = UIView(frame: CGRectNull)
+        self.dailpadtxt.inputView = UIView(frame: CGRect.null)
         
         
         // Do any additional setup after loading the view.
@@ -228,14 +228,14 @@ class ViewController: UIViewController {
 
     
     
-    @IBAction func btnsAppend(sender: UIButton) {
+    @IBAction func btnsAppend(_ sender: UIButton) {
         
       
         
         
         let digit1 = sender.currentTitle!
        
-        self.dailpadtxt.inputView = UIView(frame: CGRectNull)
+        self.dailpadtxt.inputView = UIView(frame: CGRect.null)
         
         switch digit1 {
             
