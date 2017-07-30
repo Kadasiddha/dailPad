@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="Gotham-Book.otf">
+        <array key="Gotham-Book.otf">
             <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-            <string>Gotham-Book</string>
-        </mutableArray>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -28,177 +20,187 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="dKH-Ec-Bq9">
-                                <rect key="frame" x="257" y="188" width="75" height="75"/>
+                                <frame key="frameInset" minX="257" minY="188" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="3" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="3" backgroundImage="pressed"/>
+                                <state key="highlighted" title="3" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xV0-Eh-i6M"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="ONN-W6-xfj">
-                                <rect key="frame" x="147" y="188" width="75" height="75"/>
+                                <frame key="frameInset" minX="147" minY="188" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="2" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="2" backgroundImage="pressed"/>
+                                <state key="highlighted" title="2" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aJV-6D-2af"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="ENF-Bm-HCi">
-                                <rect key="frame" x="37" y="286" width="75" height="75"/>
+                                <frame key="frameInset" minX="37" minY="286" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="4" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="4" backgroundImage="pressed"/>
+                                <state key="highlighted" title="4" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Woh-2w-RKw"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="Ath-PV-1s0">
-                                <rect key="frame" x="147" y="286" width="75" height="75"/>
+                                <frame key="frameInset" minX="147" minY="286" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="5" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="5" backgroundImage="pressed"/>
+                                <state key="highlighted" title="5" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YgR-N1-Akr"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="G3H-4p-4jh">
-                                <rect key="frame" x="37" y="384" width="75" height="75"/>
+                                <frame key="frameInset" minX="37" minY="384" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="7" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="7" backgroundImage="pressed"/>
+                                <state key="highlighted" title="7" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3w0-MP-Tbu"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="gYH-Oo-pf9">
-                                <rect key="frame" x="257" y="384" width="75" height="75"/>
+                                <frame key="frameInset" minX="257" minY="384" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="9" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" backgroundImage="pressed"/>
+                                <state key="highlighted" title="9" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vcy-4z-44r"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="gZQ-Cx-hFh">
-                                <rect key="frame" x="147" y="384" width="75" height="75"/>
+                                <frame key="frameInset" minX="147" minY="384" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="8" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="8" backgroundImage="pressed"/>
+                                <state key="highlighted" title="8" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="epN-wF-c1n"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="EiZ-ps-SeU">
-                                <rect key="frame" x="257" y="286" width="75" height="75"/>
+                                <frame key="frameInset" minX="257" minY="286" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="6" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="6" backgroundImage="pressed"/>
+                                <state key="highlighted" title="6" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AeZ-fw-XMm"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="NJ8-dF-Y0y">
-                                <rect key="frame" x="147" y="482" width="75" height="75"/>
+                                <frame key="frameInset" minX="147" minY="482" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES" keyboardKey="YES" searchField="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" keyboardKey="YES" searchField="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="0" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="0" backgroundImage="pressed"/>
+                                <state key="highlighted" title="0" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="w3l-bH-rPk"/>
                                 </connections>
                             </button>
                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="bY7-uZ-yvG">
-                                <rect key="frame" x="37" y="188" width="75" height="75"/>
+                                <frame key="frameInset" minX="37" minY="188" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="32"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="1" backgroundImage="normal">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="1" backgroundImage="pressed"/>
+                                <state key="highlighted" title="1" backgroundImage="pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnsAppend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Y2z-Gc-Y3M"/>
                                 </connections>
                             </button>
                             <textField clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" clearButtonMode="always" id="uXz-s1-nuo">
-                                <rect key="frame" x="50" y="102" width="262" height="30"/>
+                                <frame key="frameInset" minX="50" minY="102" width="262" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" updatesFrequently="YES"/>
+                                    <accessibilityTraits key="traits" updatesFrequently="YES"/>
                                 </accessibility>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.95105606200267034" green="0.98527123220368795" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95105606200267034" green="0.98527123220368795" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
@@ -223,11 +225,11 @@
     </scenes>
     <resources>
         <image name="normal" width="75" height="75"/>
-        <image name="pressed" width="344" height="50"/>
+        <image name="pressed" width="595" height="842"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
 </document>
