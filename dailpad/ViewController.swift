@@ -302,7 +302,11 @@ class ViewController: UIViewController {
             print("Button pressed : \(digit1)")
             
         }
-        dailpadtxt.text = dailpadtxt.text! + digit1
+        if (dailpadtxt.text?.count == 0){
+            dailpadtxt.text = "+91 "+dailpadtxt.text! + digit1
+        }else{
+            dailpadtxt.text = dailpadtxt.text! + digit1
+        }
         
     }
 
